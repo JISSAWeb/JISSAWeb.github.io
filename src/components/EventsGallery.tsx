@@ -63,7 +63,7 @@ const events: Event[] = [
 const EventsGallery: React.FC = () => {
   const [filter, setFilter] = useState('All');
 
-  const categories = ['All', 'Competition', 'Workshop', 'Panel', 'Seminar', 'Lab'];
+  const categories = ['All', 'Competition', 'Workshop', 'SLF', 'Seminar', 'Assembly'];
   
   const filteredEvents = filter === 'All' 
     ? events 
