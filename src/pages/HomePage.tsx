@@ -49,6 +49,7 @@ const HomePage: React.FC = () => {
       </section>
 
             {/* Promotional Video Section */}
+            {/* Promotional Video Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -62,7 +63,6 @@ const HomePage: React.FC = () => {
             {/* Thumbnail Placeholder */}
             <div className="relative bg-jissa-dark-gray/50 rounded-2xl overflow-hidden backdrop-blur-sm border border-jissa-light-gray/50 shadow-2xl mb-8">
               <div className="aspect-video bg-jissa-gray/30 flex items-center justify-center">
-                {/* Replace with your video thumbnail */}
                 <img 
                   src="assets/thumbnail.png" 
                   alt="JISSA Promo Thumbnail" 
@@ -82,6 +82,51 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Benefits Section */}
+      <section className="py-20 bg-jissa-dark-gray/50 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-white mb-6">Why Join JISSA?</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Unlock opportunities, gain valuable skills, and be part of a thriving cybersecurity community
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-jissa-gray/50 p-8 rounded-xl backdrop-blur-sm border border-jissa-light-gray/50 hover:border-jissa-green/50 transition-all duration-300">
+              <div className="w-12 h-12 bg-jissa-green/20 rounded-lg flex items-center justify-center mb-6">
+                <Trophy className="w-6 h-6 text-jissa-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-4 text-center">Competitions</h3>
+              <p className="text-gray-300 text-center">
+                Sharpen your skills and represent JISSA in cybersecurity competitions and challenges.
+              </p>
+            </div>
+
+            <div className="bg-jissa-gray/50 p-8 rounded-xl backdrop-blur-sm border border-jissa-light-gray/50 hover:border-jissa-light-green/50 transition-all duration-300">
+              <div className="w-12 h-12 bg-jissa-light-green/20 rounded-lg flex items-center justify-center mb-6">
+                <Medal className="w-6 h-6 text-jissa-light-green" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-4 text-center">Skill Development</h3>
+              <p className="text-gray-300 text-center">
+                Gain hands-on experience through workshops, competitions and seminars
+              </p>
+            </div>
+
+            <div className="bg-jissa-gray/50 p-8 rounded-xl backdrop-blur-sm border border-jissa-light-gray/50 hover:border-orange-500/50 transition-all duration-300">
+              <div className="w-12 h-12 bg-orange-600/20 rounded-lg flex items-center justify-center mb-6">
+                <Star className="w-6 h-6 text-orange-400" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-4 text-center">Networking</h3>
+              <p className="text-gray-300 text-center">
+                Connect with fellow students, mentors, and industry professionals in the cybersecurity field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
 
       {/* About Section */}
